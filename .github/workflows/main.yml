@@ -1,0 +1,11 @@
+name: QA - Automation Regression
+
+on:
+  workflow_call:
+    inputs:
+      typeOfTests:
+        required: true
+        type: string
+      environmentTo:
+        required: true
+        type: string
